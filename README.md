@@ -8,6 +8,7 @@ In the table shown below: *SVM used 3-fold CV, whereas KNN, LR, and DT used 5-fo
 | **SVM** | `C=10, kernel='rbf', class_weight='balanced'` | **0.2606*** | 0.63 | 0.17 | 0.59 | **0.26** |
 
 INTERPRETATION:  
+
 The tuning results show that class imbalance is the "central challenge". 
 KNN achieved the highest accuracy (0.86) and precision (0.23), but its class-1 recall was only 0.09, meaning it detected only about 9% of actual positive cases. 
 Therefore, its high accuracy is largely driven by the majority class and is misleading for this task.
